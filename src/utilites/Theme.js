@@ -1,7 +1,7 @@
 'use strict';
 import {StyleSheet} from 'react-native';
 
-const colors = {
+export const colors = {
   primary: '#2E6933',
   lightGreen: '#D9FFDC',
   white: '#FFFFFF',
@@ -13,7 +13,7 @@ const colors = {
   mediumGray: '#CBCBCB',
 };
 
-const globalStyleSheet = StyleSheet.create({
+export const globalStyleSheet = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.white,
@@ -48,5 +48,3 @@ const globalStyleSheet = StyleSheet.create({
   },
   listContentContainer: {marginBottom: 20, paddingVertical: 40},
 });
-
-module.exports = {colors, globalStyleSheet};
