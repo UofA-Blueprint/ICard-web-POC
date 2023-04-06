@@ -18,10 +18,10 @@ import {storeUser} from '../utilites/StoreUser';
 import VerificationView from './VerificationView';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-const authRoute = 'https://icard-stag.herokuapp.com/';
+const authRoute = 'http://localhost:3000/';
 const apiKey = 'test';
 const expoClientId =
-  '71633949714-fdu0efehl8ouvbih6eosrgfla2b2mk0u.apps.googleusercontent.com';
+  '71633949714-i4t4d44dgdbg6jbu57i3tl7nsklsfd1p.apps.googleusercontent.com';
 
 // const expoClientId = CLIENT_ID;
 // const authRoute = API_ROUTE;

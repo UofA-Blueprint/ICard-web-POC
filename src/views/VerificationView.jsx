@@ -20,7 +20,7 @@ import {colors} from '../utilites/Theme';
 import AuthContext from '../context/AuthContext';
 import Step from '../components/shared/Step';
 
-const authRoute = 'https://icard-stag.herokuapp.com/';
+const authRoute = 'http://localhost:3000/';
 const apiKey = 'test';
 
 const VerifcationView = ({navigation}) => {

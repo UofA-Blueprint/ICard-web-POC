@@ -23,7 +23,7 @@ const Stack = createNativeStackNavigator();
 // import {API_ROUTE, API_KEY} from '@env';
 import {storeUser} from '../utilites/StoreUser';
 
-const authRoute = 'https://icard-stag.herokuapp.com/';
+const authRoute = 'http://localhost:3000/';
 const apiKey = 'test';
 
 // const authRoute = API_ROUTE;
